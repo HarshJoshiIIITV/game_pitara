@@ -1,0 +1,106 @@
+faq-container h2[data-v-359f1776] {
+	text-align: center;
+	margin: 40px 0;
+}
+.fq h2 {
+	display: block;
+	font-size: 1.5em;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+	color: white;
+}
+
+.fq h3 {
+	font-size: 18.72px;
+	color: white;
+	font-weight: bold;
+}
+
+.card_faq {
+	padding: 20px 40px;
+	width: 50%;
+}
+.Collapsible {
+	background-color: #111;
+}
+.fq li::marker {
+	color: #f9bb22 !important;
+}
+
+.fq ol {
+	padding-left: 0px;
+}
+.Collapsible__contentInner {
+	padding: 10px;
+	border: none;
+	border-top: 0;
+	color: #8f99a3 !important;
+	font-size: 16px !important;
+}
+.Collapsible__contentInner {
+	margin-bottom: 10px;
+	font-size: 14px;
+	line-height: 20px;
+	color: white;
+}
+.Collapsible__contentInner p:last-child {
+	margin-bottom: 0;
+}
+
+.Collapsible__trigger {
+	display: block;
+	font-weight: 400;
+	text-decoration: none;
+	color: #333333;
+	position: relative;
+	border: none;
+	padding: 10px;
+	background: #111;
+	color: white;
+}
+.Collapsible__trigger:after {
+	font-family: 'FontAwesome';
+	content: '\f107';
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	display: block;
+	transition: transform 300ms;
+	color: #f9bb22;
+	font-weight: 600;
+}
+.Collapsible__trigger.is-open:after {
+	transform: rotateZ(180deg);
+}
+.Collapsible__trigger.is-disabled {
+	opacity: 0.5;
+	background-color: #111;
+}
+
+.CustomTriggerCSS {
+	background-color: #111;
+	transition: background-color 200ms ease;
+}
+
+.CustomTriggerCSS--open {
+	background-color: #111;
+}
+
+.Collapsible__custom-sibling {
+	padding: 5px;
+	font-size: 12px;
+	background-color: #111;
+	color: black;
+}
+
+.card_faq {
+	float: left;
+}
+.fq::after {
+	content: '';
+	display: block;
+	clear: both;
+}

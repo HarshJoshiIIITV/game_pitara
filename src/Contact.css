@@ -1,0 +1,61 @@
+.Contact_sec {
+	padding: 0px;
+}
+
+.Contact_sec {
+	background-color: rgb(26, 26, 26);
+	margin-top: 20px;
+	padding: 20px 0px;
+}
+.mr-0,
+.mx-0 {
+	margin-right: 0 !important;
+}
+
+.contact_container {
+	width: 70%;
+	margin: 0px auto;
+}
+.cus label,
+.cus h2 {
+	color: white !important;
+}
+
+.Contact_sec form input {
+	border: 1px solid #ced4da !important;
+	/* height: 72px; */
+	padding: 20px 30px;
+	border-radius: 8px;
+	letter-spacing: 1px;
+	font-size: 16px;
+	height: 65px;
+}
+
+.Contact_sec form textarea {
+	padding: 20px;
+}
+.Contact_sec {
+	z-index: 1000 !important;
+}
+
+.Contact_sec form .btn {
+	border: 1px solid #dcdcdc;
+	width: 100%;
+	font-size: 24px;
+	padding: 15px 0px;
+	border-radius: 8px;
+	margin-bottom: 100px !important;
+	display: inherit;
+	background-color: white;
+	color: black !important;
+}
+.cus Button,
+.cus a {
+	border: none !important;
+	outline: none !important;
+	text-decoration: none !important;
+}
+#contact_abc label {
+	font-weight: bold !important;
+	color: #2d2d2d;
+}
